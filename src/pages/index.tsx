@@ -4,7 +4,6 @@ type Props = {
   title: string
 }
 
-const bla = 'var'
 const foo = '123'
 
 export default function Home({ title = 'React avançando!' }: Props) {
