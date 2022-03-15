@@ -4,5 +4,5 @@ updates:
     directory: "/"
     schedule:
       # Check for updates to GitHub Actions weekly
-      interval: "weekly"
+      interval: "daily"
     open-pull-requests-limit: 10
