@@ -12,7 +12,8 @@
   },
   "lint-staged": {
     "src/**/*.ts?(x)": [
-      "yarn lint --fix", "yarn test --bail"
+      "yarn lint --fix", 
+      "yarn test --findRelatedTests --bail"
     ]
   },
   "dependencies": {
